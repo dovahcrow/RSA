@@ -26,7 +26,7 @@ pkcs1 = { version = "0.7.5", default-features = false, features = ["alloc", "pkc
 pkcs8 = { version = "0.10.2", default-features = false, features = ["alloc"] }
 signature = { version = "2", default-features = false , features = ["alloc", "digest", "rand_core"] }
 spki = { version = "0.7.2", default-features = false, features = ["alloc"] }
-zeroize = { version = "1.5", features = ["alloc"] }
+zeroize = { version = "1.3", features = ["alloc"] }
 
 # optional dependencies
 serde = { version = "1.0.103", optional = true, default-features = false, features = ["derive"] }
